@@ -1,0 +1,22 @@
+**********************************************
+*              Filename: TestData.bin        *
+*             Processed: 11-14-2015 12:27:43 *
+**********************************************
+*          Total Frames: 8000                *
+*  Total Frames Removed: 50                  *
+* Total Frames Verified: 7950                *
+**********************************************
+*     First Shift Frame: 500                 *
+*      First Shift Time: 00:04:17            *
+*      Number of Shifts: 24                  *
+*   First Bad CRC Frame: 1000                *
+*    First Bad CRC Time: 00:08:33            *
+*    Number of Bad CRCs: 10                  *
+**********************************************
+00:04:17 - Frame 500:  Detected left shift of 2 bytes, removing frame (1).
+00:04:33 - Frame 520:  Detected left shift of 3 bytes, removing frame (2).
+00:08:32 - Frame 999:  Detected left shift of 6 bytes, removing frame (3).
+00:08:33 - Frame 1000: Detected CRC failure, removing frame (4).
+Warning: removed 2 frames in a row!
+00:08:33 - Frame 1001: Detected CRC failure, removing frame (5).
+Warning: removed 3 frames in a row!
